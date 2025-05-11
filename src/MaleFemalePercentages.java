@@ -44,11 +44,6 @@ public class MaleFemalePercentages {
         //*********************************************************
         totalStudents = numberOfMales + numberOfFemales;
 
-        if (totalStudents == 0) {
-            System.out.println("Error: The class cannot have zero students.");
-            System.exit(1);
-        }
-
         malePercentage = (double) numberOfMales / totalStudents * 100;
         femalePercentage = (double) numberOfFemales / totalStudents * 100;
 
